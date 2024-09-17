@@ -5,6 +5,7 @@ Vehicle Authentication using License Plate Recognition
 This project implements vehicle authentication by recognizing license plates using YOLOv10 for object detection and EasyOCR for optical character recognition (OCR). It automatically detects license plates in images or video streams and extracts the text for authentication purposes.
 
 Table of Contents
+
 Introduction
 Features
 Installation
