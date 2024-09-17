@@ -8,8 +8,7 @@ This project implements vehicle authentication by recognizing license plates usi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Examples](#examples)
-- [License](#license)
+
 
 ## Introduction
 The goal of this project is to automate vehicle authentication by reading license plates from images or live video streams. This is useful in applications such as parking management, toll systems, and gate automation. YOLOv10 is used for fast and accurate license plate detection, while EasyOCR is utilized to extract the text from the detected plates.
@@ -62,7 +61,10 @@ Run the following command to detect a license plate from an image:
 
 ```bash
 python detect.py --input path_to_image.jpg
+```
 
+## Project-structure
+```
 vehicle-authentication-lpr/
 │
 ├── models/                 # Pre-trained YOLOv10 model files
